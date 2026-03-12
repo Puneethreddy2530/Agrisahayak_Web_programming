@@ -1,0 +1,202 @@
+{
+  "Aphids": {
+    "hindi": "माहू",
+    "crops": ["cotton", "wheat", "mustard", "cabbage", "okra", "chilli"],
+    "identification": "Small soft-bodied insects, green/black/brown, found in clusters on undersides of leaves and growing tips",
+    "damage": "Sucks plant sap, causes leaf curling, stunted growth, secretes honeydew leading to sooty mold, transmits viruses",
+    "treatment": "Imidacloprid 17.8% SL @ 0.5ml/L or Dimethoate @ 2ml/L or Thiamethoxam 25% WG @ 0.3g/L. Spray on undersides.",
+    "organic_control": "Neem oil 2% spray, Yellow sticky traps, Release ladybird beetles (Coccinella), Soap spray 1%",
+    "natural_enemies": ["Ladybird beetles", "Lacewings", "Syrphid flies", "Parasitic wasps"],
+    "severity": "moderate"
+  },
+  "Whiteflies": {
+    "hindi": "सफेद मक्खी",
+    "crops": ["cotton", "tomato", "brinjal", "okra", "chilli", "cucumber"],
+    "identification": "Tiny white moth-like insects, fly when leaves are disturbed, found on leaf undersides",
+    "damage": "Sucks sap, causes yellowing, transmits Yellow Mosaic Virus and Leaf Curl Virus, honeydew secretion",
+    "treatment": "Spiromesifen 22.9% SC @ 0.4ml/L or Pyriproxyfen @ 1.5ml/L or Acetamiprid 20% SP @ 0.3g/L. Spray in morning.",
+    "organic_control": "Yellow sticky traps (20-25/acre), Neem oil 2%, Reflective mulches, Intercrop with maize",
+    "natural_enemies": ["Encarsia formosa (parasitic wasp)", "Chrysoperla"],
+    "severity": "critical"
+  },
+  "Thrips": {
+    "hindi": "थ्रिप्स",
+    "crops": ["onion", "garlic", "chilli", "grape", "cotton", "groundnut"],
+    "identification": "Tiny slender insects (1-2mm), yellow/brown/black, rasping mouthparts",
+    "damage": "Silvery patches on leaves, distorted leaves, curling, reduced plant vigor, transmits viruses (IYSV in onion)",
+    "treatment": "Fipronil 5% SC @ 1.5ml/L or Spinosad 45% SC @ 0.3ml/L or Carbosulfan @ 2ml/L. Spray covers undersides.",
+    "organic_control": "Blue sticky traps, Neem oil 2%, Beauveria bassiana @ 5g/L, Avoid overhead irrigation",
+    "natural_enemies": ["Orius bugs", "Predatory thrips", "Lacewings"],
+    "severity": "high"
+  },
+  "Red Spider Mites": {
+    "hindi": "लाल मकड़ी",
+    "crops": ["brinjal", "okra", "cotton", "tomato", "chilli", "tea"],
+    "identification": "Tiny red/yellow/green mites, webbing on leaves, visible with magnifying glass",
+    "damage": "Stippling on leaves, bronzing, webbing, reduced photosynthesis, leaf drop in severe cases",
+    "treatment": "Dicofol @ 2.5ml/L or Wettable Sulphur @ 3g/L or Propargite @ 2ml/L or Spiromesifen. Rotate chemicals.",
+    "organic_control": "Neem oil + Sulphur spray, Increase humidity, Release predatory mites (Phytoseiulus), Water spray",
+    "natural_enemies": ["Phytoseiulus persimilis", "Stethorus beetles", "Lacewings"],
+    "severity": "high"
+  },
+  "Fruit Borer": {
+    "hindi": "फल छेदक",
+    "crops": ["tomato", "brinjal", "okra", "chickpea", "pigeonpea"],
+    "identification": "Greenish caterpillars with dark stripes, bore into fruits leaving holes with frass",
+    "damage": "Bores into fruits causing rotting, reduces marketable yield significantly (up to 60% loss)",
+    "treatment": "Indoxacarb 14.5% SC @ 0.5ml/L or Chlorantraniliprole 18.5% SC @ 0.3ml/L or Emamectin Benzoate @ 0.4g/L.",
+    "organic_control": "Pheromone traps (20/acre), Bacillus thuringiensis (Bt) @ 2g/L, Neem seed kernel extract 5%, Hand picking",
+    "natural_enemies": ["Trichogramma chilonis (egg parasitoid)", "Bracon species", "Cotesia species"],
+    "severity": "critical"
+  },
+  "American Bollworm": {
+    "hindi": "अमेरिकन बोलवर्म",
+    "crops": ["cotton", "chickpea", "tomato", "pigeonpea", "maize"],
+    "identification": "Caterpillars green to brown with lateral stripes, robust build, feeds on bolls/pods/fruits",
+    "damage": "Bores into cotton bolls, chickpea pods, causes yield loss 30-80%, economic pest",
+    "treatment": "HaNPV @ 250 LE/acre + Neem 2%, Spinosad @ 0.3ml/L, Indoxacarb @ 0.5ml/L. Apply in evening.",
+    "organic_control": "Pheromone traps, HaNPV (Helicoverpa Nuclear Polyhedrosis Virus), Bt @ 2g/L, Crop rotation with non-host",
+    "natural_enemies": ["Trichogramma", "Campoletis chlorideae", "Bracon hebetor"],
+    "severity": "critical"
+  },
+  "Pink Bollworm": {
+    "hindi": "गुलाबी बोलवर्म",
+    "crops": ["cotton"],
+    "identification": "Pinkish caterpillars inside cotton bolls, rosetted and loculi damaged",
+    "damage": "Damages cotton bolls internally, reduces lint quality, causes pre-harvest boll shedding",
+    "treatment": "Chlorantraniliprole @ 0.3ml/L or Flubendiamide @ 0.2ml/L. Spray at 50% flowering and repeat.",
+    "organic_control": "Mating disruption with pheromones, Destroy crop residues by Nov 30, Deep ploughing, Bt cotton",
+    "natural_enemies": ["Trichogramma", "Bracon spp"],
+    "severity": "critical"
+  },
+  "Stem Borer (Rice)": {
+    "hindi": "तना छेदक",
+    "crops": ["rice", "maize", "sugarcane", "sorghum"],
+    "identification": "Yellow/white larvae boring into stems, dead hearts in vegetative stage, white ears at heading",
+    "damage": "Dead heart (tillers dry), white ear heads (no grain fill), 10-30% yield loss",
+    "treatment": "Cartap Hydrochloride 4G @ 10 kg/acre or Chlorantraniliprole 0.4G @ 5 kg/acre. Apply in sitting water.",
+    "organic_control": "Release Trichogramma japonicum (50,000/acre), Light traps, Destroy stubbles, Clip leaf tips",
+    "natural_enemies": ["Trichogramma japonicum", "Telenomus", "Tetrastichus"],
+    "severity": "high"
+  },
+  "Brown Plant Hopper": {
+    "hindi": "भूरा फुदका",
+    "crops": ["rice"],
+    "identification": "Brown wedge-shaped hoppers at plant base, nymphs and adults in large numbers",
+    "damage": "Hopper burn (circular patches of dried plants), transmits viruses (grassy stunt, ragged stunt)",
+    "treatment": "Pymetrozine @ 0.6g/L or Buprofezin @ 2ml/L or Dinotefuran @ 0.3g/L. Spray at plant base, not on foliage.",
+    "organic_control": "Drain water for 3-5 days, Avoid excess nitrogen, Spider conservation, Use resistant varieties",
+    "natural_enemies": ["Lycosa spiders", "Cyrtorhinus lividipennis", "Mirid bugs"],
+    "severity": "critical"
+  },
+  "Leaf Folder": {
+    "hindi": "पत्ती लपेटक",
+    "crops": ["rice"],
+    "identification": "Caterpillars fold leaves longitudinally and feed inside, white linear feeding marks",
+    "damage": "Reduces photosynthesis, white streaks on leaves, affects grain filling at later stage",
+    "treatment": "Chlorantraniliprole @ 0.3ml/L or Cartap Hydrochloride @ 2g/L or Flubendiamide @ 0.2ml/L.",
+    "organic_control": "Hand collection, Light traps, Release Trichogramma, Bt spray @ 2g/L, Avoid excess N",
+    "natural_enemies": ["Trichogramma chilonis", "Cotesia angustibasis", "Ichneumon wasps"],
+    "severity": "moderate"
+  },
+  "Pod Borer (Chickpea)": {
+    "hindi": "फली छेदक",
+    "crops": ["chickpea", "pigeonpea", "greengram", "blackgram"],
+    "identification": "Greenish caterpillars with dark lines, feed on pods creating circular holes",
+    "damage": "Destroys developing seeds, 30-80% pod damage in severe cases",
+    "treatment": "Indoxacarb @ 0.5ml/L or Spinosad @ 0.3ml/L. Spray at 50% flowering and 10 days later.",
+    "organic_control": "HaNPV @ 250 LE/acre, Bt @ 2g/L, Bird perches (20/acre), Intercrop with coriander",
+    "natural_enemies": ["Campoletis chlorideae", "Bracon spp", "Trichogramma"],
+    "severity": "critical"
+  },
+  "Diamondback Moth": {
+    "hindi": "डायमंड बैक मॉथ",
+    "crops": ["cabbage", "cauliflower", "broccoli", "radish", "mustard"],
+    "identification": "Small greenish caterpillars, wriggle backward when disturbed, diamond pattern on adult moth",
+    "damage": "Skeletonizes leaves, damages heads, reduces marketability",
+    "treatment": "Spinosad @ 0.3ml/L or Chlorantraniliprole @ 0.3ml/L or Emamectin Benzoate @ 0.4g/L. Rotate insecticides.",
+    "organic_control": "Bt spray @ 2g/L, Mustard as trap crop, Pheromone traps, Neem seed extract 5%",
+    "natural_enemies": ["Diadegma semiclausum", "Cotesia plutellae", "Apanteles plutellae"],
+    "severity": "high"
+  },
+  "Cutworm": {
+    "hindi": "कटवा कीट",
+    "crops": ["tomato", "tobacco", "cabbage", "maize", "vegetables"],
+    "identification": "Fleshy gray-brown caterpillars, curl when touched, hide in soil during day",
+    "damage": "Cuts seedlings at soil level at night, patchy gaps in crop stand",
+    "treatment": "Poison bait (Wheat bran + Carbaryl), Chlorpyriphos @ 3ml/L drench around plants, Quinalphos 1.5D dust.",
+    "organic_control": "Collect and destroy at night with torch, Flooding fields, Deep tillage to expose larvae, Neem cake in soil",
+    "natural_enemies": ["Ground beetles (Carabids)", "Parasitic wasps", "Birds"],
+    "severity": "moderate"
+  },
+  "Shoot Fly (Sorghum)": {
+    "hindi": "तना मक्खी",
+    "crops": ["sorghum", "maize"],
+    "identification": "Small gray flies, maggots bore into central shoot of young plants",
+    "damage": "Dead heart in 2-4 week old seedlings, tillers are attacked subsequently",
+    "treatment": "Seed treatment Imidacloprid 70% WS @ 10g/kg. Spray Carbofuran 3G in whorl @ 8 kg/acre. Dimethoate @ 2ml/L.",
+    "organic_control": "Early sowing (before July 20), High seed rate, Remove and destroy dead hearts, Fish meal trap",
+    "natural_enemies": ["Parasitoids (Aprostocetus)", "Spiders"],
+    "severity": "high"
+  },
+  "Jassids (Leafhoppers)": {
+    "hindi": "हरा तेला",
+    "crops": ["cotton", "brinjal", "okra", "groundnut"],
+    "identification": "Small wedge-shaped green insects, move sideways on leaves, quick jumpers",
+    "damage": "Yellowing of leaf margins (hopper burn), curling downward, reduced plant vigor",
+    "treatment": "Imidacloprid @ 0.5ml/L or Fipronil @ 1.5ml/L or Acetamiprid @ 0.2g/L. Spray on lower leaf surface.",
+    "organic_control": "Neem oil 2%, Yellow sticky traps, Intercropping with onion, Resistant varieties",
+    "natural_enemies": ["Spiders", "Mirid bugs", "Lacewings", "Lady beetles"],
+    "severity": "moderate"
+  },
+  "Mealy bugs": {
+    "hindi": "मिली बग",
+    "crops": ["cotton", "grape", "mango", "papaya", "hibiscus"],
+    "identification": "White cottony insects in clusters, covered with waxy secretion, nymphs pink",
+    "damage": "Sucks sap, stunts growth, honeydew causes sooty mold, deforms fruits, vector of viruses",
+    "treatment": "Profenophos @ 2ml/L or Chlorpyriphos @ 2ml/L + Fish oil rosin soap. Spray to run-off.",
+    "organic_control": "Release Cryptolaemus beetles, Neem oil soap spray, Remove ant colonies, High pressure water spray",
+    "natural_enemies": ["Cryptolaemus montrouzieri (Australian ladybird)", "Leptomastix dactylopii"],
+    "severity": "high"
+  },
+  "Termites": {
+    "hindi": "दीमक",
+    "crops": ["sugarcane", "wheat", "groundnut", "maize", "cotton"],
+    "identification": "White soft-bodied insects in soil, mud tubes on stems/roots",
+    "damage": "Hollows out roots and stems, sudden wilting, plant lodging, underground damage",
+    "treatment": "Chlorpyriphos 20EC @ 2L/acre with irrigation or Imidacloprid 17.8SL @ 500ml/acre. Soil drench.",
+    "organic_control": "Neem cake @ 250kg/acre, Deep ploughing, Remove crop residues, Avoid organic matter at sowing",
+    "natural_enemies": ["Ants", "Nematodes", "Fungal pathogens"],
+    "severity": "high"
+  },
+  "Grasshoppers": {
+    "hindi": "टिड्डी",
+    "crops": ["rice", "maize", "sorghum", "millet", "vegetables"],
+    "identification": "Large jumping insects, green or brown, consume large amounts of foliage",
+    "damage": "Defoliates crops, consumes large leaf areas, swarms cause devastating damage",
+    "treatment": "Chlorpyriphos @ 2.5ml/L or Malathion @ 2ml/L. In swarm situations, coordinate with government.",
+    "organic_control": "Deep ploughing to expose eggs, Birds encourage, Neem products, Metarhizium acridum (Green Muscle)",
+    "natural_enemies": ["Birds", "Robber flies", "Parasitic flies"],
+    "severity": "moderate"
+  },
+  "Root Knot Nematodes": {
+    "hindi": "जड़ गांठ सूत्रकृमि",
+    "crops": ["tomato", "brinjal", "okra", "carrot", "cucumber"],
+    "identification": "Galls/knots on roots, stunted plants, wilting in afternoon, patchy growth in field",
+    "damage": "Root damage, nutrient/water uptake reduced, secondary infections, 20-50% yield loss",
+    "treatment": "Carbofuran 3G @ 10kg/acre at transplanting. Dazomet/Metam sodium for nursery fumigation.",
+    "organic_control": "Marigold intercrop, Paecilomyces lilacinus @ 5kg/acre, Neem cake @ 200kg/acre, Solarization",
+    "natural_enemies": ["Paecilomyces lilacinus", "Pochonia chlamydosporia", "Purpureocillium"],
+    "severity": "high"
+  },
+  "Fruit Fly": {
+    "hindi": "फल मक्खी",
+    "crops": ["mango", "guava", "cucurbits", "citrus", "tomato"],
+    "identification": "Adults are small flies with patterned wings, maggots inside fruits",
+    "damage": "Maggots feed inside fruits, fruit drop, rotting, export rejection",
+    "treatment": "Protein bait (Malathion 50EC 10ml + Jaggery 100g + Water 1L) spray on one meter area on alternate plants.",
+    "organic_control": "Methyl eugenol traps (25/acre), Pheromone traps, Collect and destroy fallen fruits, Bagging fruits",
+    "natural_enemies": ["Parasitic wasps (Opius)", "Predatory ants"],
+    "severity": "high"
+  }
+}

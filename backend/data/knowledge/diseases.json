@@ -1,0 +1,298 @@
+{
+  "Late Blight": {
+    "hindi": "पछेती अंगमारी",
+    "crops": ["tomato", "potato"],
+    "symptoms": [
+      "brown spots on leaves",
+      "white mold on undersides",
+      "rapid spreading",
+      "fruit rot",
+      "water-soaked lesions",
+      "leaf curling"
+    ],
+    "causes": "Phytophthora infestans fungus, humid weather above 90%, cool temperatures 15-20°C",
+    "treatment": "Mancozeb 75% WP @ 2g/L or Copper Oxychloride @ 3g/L or Metalaxyl + Mancozeb @ 2.5g/L. Spray every 7 days during wet weather.",
+    "prevention": "Avoid overhead irrigation, ensure air circulation, use resistant varieties, remove infected debris, crop rotation",
+    "severity": "critical"
+  },
+  "Early Blight": {
+    "hindi": "अगेती अंगमारी",
+    "crops": ["tomato", "potato", "eggplant"],
+    "symptoms": [
+      "concentric rings on leaves",
+      "target-like spots",
+      "yellowing of leaves",
+      "premature leaf drop",
+      "stem cankers"
+    ],
+    "causes": "Alternaria solani fungus, warm humid conditions 24-29°C",
+    "treatment": "Chlorothalonil @ 2g/L or Mancozeb 75% WP @ 2.5g/L or Azoxystrobin @ 1ml/L. Apply every 10-14 days.",
+    "prevention": "Crop rotation (3 years), remove infected debris, stake plants for air circulation, mulching",
+    "severity": "moderate"
+  },
+  "Bacterial Wilt": {
+    "hindi": "जीवाणु मुरझान",
+    "crops": ["tomato", "potato", "eggplant", "pepper", "banana"],
+    "symptoms": [
+      "sudden wilting",
+      "plants wilt during day recover at night initially",
+      "brown vascular tissue",
+      "milky bacterial ooze when stem is cut"
+    ],
+    "causes": "Ralstonia solanacearum bacteria, waterlogged soil, high temperatures",
+    "treatment": "No effective chemical treatment. Remove and destroy infected plants. Apply Streptocycline 100ppm drench for prevention.",
+    "prevention": "Use resistant varieties, crop rotation (5 years), avoid waterlogging, use disease-free seedlings",
+    "severity": "critical"
+  },
+  "Powdery Mildew": {
+    "hindi": "चूर्णिल आसिता",
+    "crops": ["cucumber", "pumpkin", "bottle gourd", "pea", "okra", "grapes", "mango"],
+    "symptoms": [
+      "white powdery coating on leaves",
+      "curling of leaves",
+      "stunted growth",
+      "yellowing",
+      "premature leaf fall"
+    ],
+    "causes": "Fungal spores (Erysiphe, Podosphaera), dry conditions, moderate temperature 20-25°C",
+    "treatment": "Sulphur 80% WP @ 2g/L or Carbendazim @ 1g/L or Triadimefon @ 0.5g/L. Spray at first sign.",
+    "prevention": "Avoid overcrowding, ensure ventilation, avoid evening irrigation, resistant varieties",
+    "severity": "moderate"
+  },
+  "Downy Mildew": {
+    "hindi": "मृदुरोमिल आसिता",
+    "crops": ["cucumber", "grape", "onion", "cauliflower", "spinach"],
+    "symptoms": [
+      "yellow spots on upper leaf surface",
+      "grayish purple mold on undersides",
+      "leaves become brown and dry",
+      "stunted growth"
+    ],
+    "causes": "Oomycete pathogens (Peronospora, Pseudoperonospora), cool wet conditions",
+    "treatment": "Mancozeb @ 2.5g/L or Metalaxyl + Mancozeb @ 2g/L or Copper Hydroxide @ 2g/L. Spray every 7-10 days.",
+    "prevention": "Good drainage, avoid overhead irrigation, morning watering, crop rotation",
+    "severity": "high"
+  },
+  "Fusarium Wilt": {
+    "hindi": "फ्यूजेरियम उखटा रोग",
+    "crops": ["tomato", "banana", "cotton", "chickpea", "pigeon pea"],
+    "symptoms": [
+      "yellowing starts from lower leaves",
+      "one-sided wilting",
+      "brown vascular bundles",
+      "stunting",
+      "leaf margin browning"
+    ],
+    "causes": "Fusarium oxysporum fungus, soil-borne, warm temperatures 25-30°C",
+    "treatment": "Soil drenching with Carbendazim @ 2g/L or Trichoderma viride @ 5g/L. Seed treatment with Thiram @ 3g/kg.",
+    "prevention": "Resistant varieties, crop rotation, soil solarization, biocontrol agents (Trichoderma)",
+    "severity": "high"
+  },
+  "Anthracnose": {
+    "hindi": "श्यामवर्ण रोग",
+    "crops": ["mango", "papaya", "chilli", "grape", "banana"],
+    "symptoms": [
+      "sunken dark lesions on fruits",
+      "pinkish spore masses",
+      "leaf spots with concentric rings",
+      "twig dieback",
+      "fruit rot"
+    ],
+    "causes": "Colletotrichum species fungi, high humidity, rainy season",
+    "treatment": "Carbendazim @ 1g/L or Mancozeb @ 2.5g/L or Copper Oxychloride @ 3g/L. Spray 3-4 times during flowering.",
+    "prevention": "Prune infected parts, remove mummies, avoid crowding, post-harvest hot water treatment",
+    "severity": "high"
+  },
+  "Yellow Mosaic Virus": {
+    "hindi": "पीला मोज़ेक विषाणु",
+    "crops": ["okra", "mungbean", "urdbean", "soybean"],
+    "symptoms": [
+      "yellow mottling on leaves",
+      "mosaic pattern",
+      "leaf puckering",
+      "reduced pod formation",
+      "stunted growth"
+    ],
+    "causes": "Begomovirus transmitted by whiteflies (Bemisia tabaci)",
+    "treatment": "No direct cure. Control vector with Imidacloprid @ 0.5ml/L or Thiamethoxam @ 0.3g/L. Remove infected plants.",
+    "prevention": "Use resistant varieties, control whiteflies, remove weeds, use reflective mulches, intercropping with maize",
+    "severity": "high"
+  },
+  "Leaf Curl Virus": {
+    "hindi": "पत्ती मोड़क विषाणु",
+    "crops": ["cotton", "tomato", "chilli", "papaya"],
+    "symptoms": [
+      "upward curling of leaves",
+      "thickening of veins",
+      "stunted growth",
+      "reduced fruit set",
+      "crinkled leaves"
+    ],
+    "causes": "Begomovirus transmitted by whiteflies",
+    "treatment": "Control whiteflies with Imidacloprid @ 0.5ml/L. Spray Neem oil 2% weekly as deterrent. Remove affected plants.",
+    "prevention": "Resistant varieties, destroy volunteer plants, control whiteflies, avoid planting near infected crops",
+    "severity": "critical"
+  },
+  "Rust Disease": {
+    "hindi": "गेरुई रोग",
+    "crops": ["wheat", "groundnut", "coffee", "bean", "soybean"],
+    "symptoms": [
+      "orange-brown pustules on leaves",
+      "rusty powder on rubbing",
+      "yellowing around pustules",
+      "premature leaf drop"
+    ],
+    "causes": "Puccinia species fungi, cool humid conditions, dew formation",
+    "treatment": "Propiconazole @ 1ml/L or Mancozeb @ 2.5g/L or Triadimefon @ 1g/L. Apply at first sign.",
+    "prevention": "Resistant varieties, destroy volunteer crops, proper spacing, avoid late sowing",
+    "severity": "high"
+  },
+  "Blast Disease": {
+    "hindi": "झुलसा रोग",
+    "crops": ["rice", "finger millet"],
+    "symptoms": [
+      "diamond-shaped lesions on leaves",
+      "grey center with brown border",
+      "neck rot",
+      "node infection",
+      "panicle browning"
+    ],
+    "causes": "Magnaporthe oryzae fungus, high humidity, excess nitrogen",
+    "treatment": "Tricyclazole 75% WP @ 0.6g/L or Isoprothiolane @ 1.5ml/L. Spray at first symptom and repeat after 15 days.",
+    "prevention": "Resistant varieties, balanced fertilizer (avoid excess N), seed treatment, field sanitation",
+    "severity": "critical"
+  },
+  "Root Rot": {
+    "hindi": "जड़ सड़न",
+    "crops": ["chickpea", "lentil", "groundnut", "cotton", "soybean"],
+    "symptoms": [
+      "yellowing of lower leaves",
+      "plant wilting",
+      "black rotting roots",
+      "plant pulls out easily",
+      "poor stand"
+    ],
+    "causes": "Rhizoctonia, Fusarium, Macrophomina fungi, waterlogging, poor drainage",
+    "treatment": "Seed treatment with Carbendazim + Thiram @ 2g/kg. Soil application of Trichoderma @ 5kg/acre.",
+    "prevention": "Good drainage, avoid waterlogging, crop rotation, biocontrol agents, seed treatment",
+    "severity": "high"
+  },
+  "Damping Off": {
+    "hindi": "आर्द्र गलन",
+    "crops": ["tomato seedlings", "chilli seedlings", "brinjal seedlings", "cabbage seedlings"],
+    "symptoms": [
+      "seedlings falling over",
+      "water-soaked stems at soil level",
+      "thin dark stem base",
+      "poor germination",
+      "patches of dead seedlings"
+    ],
+    "causes": "Pythium, Rhizoctonia, Fusarium fungi, overwatering, poor drainage, overcrowding",
+    "treatment": "Drench with Metalaxyl @ 2g/L or Copper Oxychloride @ 3g/L. Reduce watering.",
+    "prevention": "Sterilize soil, avoid overwatering, thin seedlings, good drainage, Trichoderma application",
+    "severity": "high"
+  },
+  "Bacterial Leaf Blight": {
+    "hindi": "जीवाणु पत्ती झुलसा",
+    "crops": ["rice"],
+    "symptoms": [
+      "water-soaked lesions at leaf tips",
+      "yellow to white streaks along veins",
+      "leaves turn straw colored",
+      "wilting of seedlings"
+    ],
+    "causes": "Xanthomonas oryzae bacteria, heavy rains, flooding, wounds",
+    "treatment": "Streptocycline @ 100ppm + Copper Oxychloride @ 3g/L. Spray 2-3 times at 10 day interval.",
+    "prevention": "Resistant varieties, avoid excess nitrogen, balanced K fertilization, seed treatment",
+    "severity": "high"
+  },
+  "Stem Borer Damage": {
+    "hindi": "तना छेदक",
+    "crops": ["rice", "maize", "sugarcane", "sorghum"],
+    "symptoms": [
+      "dead heart in vegetative stage",
+      "white ear head",
+      "bore holes in stem",
+      "frass in stem",
+      "wilting of central shoot"
+    ],
+    "causes": "Various stem borer insects (Scirpophaga, Chilo species)",
+    "treatment": "Carbofuran 3G @ 12kg/acre in whorl. Spray Chlorpyriphos @ 2.5ml/L or Cartap Hydrochloride @ 2g/L.",
+    "prevention": "Light traps, pheromone traps, destroy stubbles, avoid ratoon crops, release Trichogramma",
+    "severity": "high"
+  },
+  "Nitrogen Deficiency": {
+    "hindi": "नाइट्रोजन की कमी",
+    "crops": ["all crops"],
+    "symptoms": [
+      "yellowing of older leaves first",
+      "pale green color",
+      "stunted growth",
+      "reduced tillering",
+      "thin weak stems"
+    ],
+    "causes": "Insufficient nitrogen in soil, leaching, waterlogging",
+    "treatment": "Apply Urea @ 20-30 kg/acre or 2% Urea foliar spray. Split application recommended.",
+    "prevention": "Soil testing, balanced fertilization, organic matter addition, nitrification inhibitors",
+    "severity": "moderate"
+  },
+  "Phosphorus Deficiency": {
+    "hindi": "फॉस्फोरस की कमी",
+    "crops": ["all crops"],
+    "symptoms": [
+      "purple or reddish leaves",
+      "delayed maturity",
+      "poor root development",
+      "reduced flowering",
+      "dark green older leaves"
+    ],
+    "causes": "Low soil phosphorus, high pH fixing P, cold soils",
+    "treatment": "Apply DAP @ 50 kg/acre or SSP @ 100 kg/acre basal. Foliar spray of 2% DAP.",
+    "prevention": "Soil testing, adequate P at planting, mycorrhizal inoculation",
+    "severity": "moderate"
+  },
+  "Potassium Deficiency": {
+    "hindi": "पोटाश की कमी",
+    "crops": ["all crops"],
+    "symptoms": [
+      "marginal leaf browning",
+      "leaf tip burn",
+      "weak stems",
+      "poor fruit quality",
+      "reduced disease resistance"
+    ],
+    "causes": "Low soil K, sandy soils, heavy K-demanding crops",
+    "treatment": "Apply MOP (Muriate of Potash) @ 40 kg/acre or SOP @ 50 kg/acre. Foliar KCl 1%.",
+    "prevention": "Soil testing, adequate K fertilization, avoid excess Na",
+    "severity": "moderate"
+  },
+  "Iron Deficiency": {
+    "hindi": "लोहे की कमी",
+    "crops": ["rice", "groundnut", "citrus", "grape"],
+    "symptoms": [
+      "interveinal chlorosis on young leaves",
+      "yellowing between green veins",
+      "white leaves in severe cases",
+      "stunted growth"
+    ],
+    "causes": "High pH soil (>7.5), calcareous soils, excess phosphorus",
+    "treatment": "Foliar spray of Ferrous Sulphate @ 0.5% + Citric Acid 0.1% or Fe-EDTA @ 0.2%.",
+    "prevention": "Acidify root zone with sulfur, avoid overliming, Fe-fortified fertilizers",
+    "severity": "moderate"
+  },
+  "Zinc Deficiency": {
+    "hindi": "जिंक की कमी",
+    "crops": ["rice", "maize", "wheat", "citrus"],
+    "symptoms": [
+      "interveinal chlorosis",
+      "small leaves",
+      "shortened internodes",
+      "delayed maturity",
+      "white bud in maize"
+    ],
+    "causes": "High pH, sandy soils, high phosphorus, continuous flooded rice",
+    "treatment": "Soil application of Zinc Sulphate @ 10 kg/acre or foliar spray @ 0.5%.",
+    "prevention": "Regular Zn application, avoid excess P, soil testing, Zn-coated fertilizers",
+    "severity": "moderate"
+  }
+}

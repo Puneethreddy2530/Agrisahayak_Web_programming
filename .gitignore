@@ -1,0 +1,80 @@
+# ─── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+.venv*/
+backend/.venv*/
+env/
+*.egg-info/
+dist/
+build/
+
+# ─── Environment & Secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+.secrets/
+secrets/
+
+# ─── IDEs ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── Node / Frontend ───────────────────────────────────────────────────────────
+node_modules/
+.angular/
+.vite/
+frontend-dist/
+
+# ─── Database & Analytics ──────────────────────────────────────────────────────
+*.db
+*.sqlite3
+*.duckdb
+*.duckdb.wal
+
+# ─── ML Model Weights (large binary files — download separately) ───────────────
+ml/models/
+ml/data/
+backend/train_pest_classifier.py
+
+# Dataset folders
+IP102/
+IP102_3CLASS/
+
+# ─── Uploads & Generated ───────────────────────────────────────────────────────
+backend/uploads/
+uploads/
+
+# ─── Large media files ─────────────────────────────────────────────────────────
+*.mp4
+*.avi
+*.mov
+*.zip
+*.tar.gz
+
+# ─── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── One-off output images ─────────────────────────────────────────────────────
+Figure_*.png
+*_analysis.png
+*_demonstration.png
+
+# ─── SECURITY: Private keys — NEVER commit ─────────────────────────────────────
+keys/
+*.pem
+*.key
+*_private*
+signing_key*
+private_key*
+neoshield_keys.json
+
+# ─── Supabase ──────────────────────────────────────────────────────────────────
+.supabase/

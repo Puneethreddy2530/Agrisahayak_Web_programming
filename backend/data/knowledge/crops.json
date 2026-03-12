@@ -1,0 +1,456 @@
+{
+  "Rice": {
+    "hindi": "धान",
+    "season": "Kharif (June-November)",
+    "duration": 120,
+    "npk": {"N": 120, "P": 60, "K": 40},
+    "water_requirement": "1200-1400 mm (flooded cultivation)",
+    "soil_type": ["Clay", "Clay loam", "Alluvial"],
+    "optimal_ph": "5.5-7.0",
+    "spacing": "20x15 cm (transplanted), 20x10 cm (direct seeded)",
+    "seed_rate": "20-25 kg/acre (transplanting), 30-35 kg/acre (DSR)",
+    "key_stages": {
+      "nursery": "21-30 days",
+      "transplanting": "21-25 day seedlings",
+      "tillering": "25-60 DAT",
+      "flowering": "70-90 DAT",
+      "maturity": "110-140 DAT"
+    },
+    "fertilizer_schedule": {
+      "basal": "Full P, K + 1/3 N at transplanting",
+      "first_top": "1/3 N at 21 DAT (tillering)",
+      "second_top": "1/3 N at 45 DAT (panicle initiation)"
+    },
+    "common_diseases": ["Blast", "Bacterial Leaf Blight", "Sheath Blight", "Brown Spot"],
+    "common_pests": ["Stem Borer", "Brown Plant Hopper", "Leaf Folder", "Gall Midge"]
+  },
+  "Wheat": {
+    "hindi": "गेहूं",
+    "season": "Rabi (November-April)",
+    "duration": 120,
+    "npk": {"N": 120, "P": 60, "K": 40},
+    "water_requirement": "400-500 mm (4-6 irrigations)",
+    "soil_type": ["Loam", "Clay loam", "Alluvial"],
+    "optimal_ph": "6.0-7.5",
+    "spacing": "22.5 cm row spacing",
+    "seed_rate": "40-50 kg/acre",
+    "key_stages": {
+      "sowing": "November 1-25 (timely)",
+      "germination": "7-10 DAS",
+      "tillering": "30-45 DAS",
+      "jointing": "60-70 DAS",
+      "flowering": "80-90 DAS",
+      "maturity": "120-150 DAS"
+    },
+    "fertilizer_schedule": {
+      "basal": "Full P, K + 1/2 N at sowing",
+      "first_top": "1/2 N at first irrigation (21 DAS)"
+    },
+    "critical_irrigation": ["CRI (21 DAS)", "Tillering (45 DAS)", "Jointing (70 DAS)", "Flowering (90 DAS)", "Dough (105 DAS)"],
+    "common_diseases": ["Yellow Rust", "Brown Rust", "Karnal Bunt", "Loose Smut"],
+    "common_pests": ["Aphids", "Army Worm", "Termites"]
+  },
+  "Maize": {
+    "hindi": "मक्का",
+    "season": "Kharif (June-October) and Rabi",
+    "duration": 100,
+    "npk": {"N": 120, "P": 60, "K": 60},
+    "water_requirement": "500-600 mm",
+    "soil_type": ["Loam", "Sandy loam", "Well-drained"],
+    "optimal_ph": "5.5-7.5",
+    "spacing": "60x20 cm",
+    "seed_rate": "8-10 kg/acre (hybrid)",
+    "key_stages": {
+      "germination": "7-10 DAS",
+      "knee_high": "30-35 DAS",
+      "tasseling": "55-65 DAS",
+      "silking": "60-70 DAS",
+      "maturity": "90-110 DAS"
+    },
+    "fertilizer_schedule": {
+      "basal": "Full P, K + 1/3 N at sowing",
+      "first_top": "1/3 N at knee-high (30 DAS)",
+      "second_top": "1/3 N at tasseling (55 DAS)"
+    },
+    "common_diseases": ["Maydis Leaf Blight", "Downy Mildew", "Stalk Rot"],
+    "common_pests": ["Fall Army Worm", "Stem Borer", "Shoot Fly"]
+  },
+  "Cotton": {
+    "hindi": "कपास",
+    "season": "Kharif (April-December)",
+    "duration": 180,
+    "npk": {"N": 80, "P": 40, "K": 40},
+    "water_requirement": "700-900 mm (6-8 irrigations)",
+    "soil_type": ["Black cotton soil", "Deep loam", "Well-drained"],
+    "optimal_ph": "6.0-8.0",
+    "spacing": "90x60 cm (rainfed), 90x45 cm (irrigated)",
+    "seed_rate": "1-1.5 kg/acre (Bt hybrid)",
+    "key_stages": {
+      "germination": "7-10 DAS",
+      "squaring": "35-45 DAS",
+      "flowering": "60-70 DAS",
+      "boll_development": "80-120 DAS",
+      "first_picking": "140-150 DAS"
+    },
+    "fertilizer_schedule": {
+      "basal": "Full P, K + 1/4 N at sowing",
+      "splits": "N in 3-4 splits up to 60 DAS"
+    },
+    "common_diseases": ["Bacterial Blight", "Leaf Curl Virus", "Grey Mildew"],
+    "common_pests": ["American Bollworm", "Pink Bollworm", "Whiteflies", "Jassids", "Aphids"]
+  },
+  "Tomato": {
+    "hindi": "टमाटर",
+    "season": "Rabi/Summer (transplant Aug-Feb)",
+    "duration": 120,
+    "npk": {"N": 120, "P": 60, "K": 60},
+    "water_requirement": "600-700 mm (drip/furrow)",
+    "soil_type": ["Sandy loam", "Loam", "Well-drained"],
+    "optimal_ph": "6.0-7.0",
+    "spacing": "60x45 cm (determinate), 75x60 cm (indeterminate)",
+    "seed_rate": "150-200 g/acre (nursery)",
+    "key_stages": {
+      "nursery": "25-30 days",
+      "transplanting": "4-5 leaf stage",
+      "flowering": "30-45 DAT",
+      "fruiting": "60-75 DAT",
+      "first_harvest": "70-90 DAT"
+    },
+    "fertilizer_schedule": {
+      "basal": "FYM 10t/acre + Full P + 1/3 N, K",
+      "top_dressing": "N, K at 30 DAT and 60 DAT"
+    },
+    "common_diseases": ["Late Blight", "Early Blight", "Bacterial Wilt", "Leaf Curl"],
+    "common_pests": ["Fruit Borer", "Whiteflies", "Nematodes", "Aphids"]
+  },
+  "Potato": {
+    "hindi": "आलू",
+    "season": "Rabi (October-February)",
+    "duration": 90,
+    "npk": {"N": 120, "P": 80, "K": 100},
+    "water_requirement": "500-600 mm (8-12 irrigations)",
+    "soil_type": ["Sandy loam", "Loam", "Well-drained, friable"],
+    "optimal_ph": "5.5-6.5",
+    "spacing": "60x20 cm",
+    "seed_rate": "600-800 kg/acre (25-40g tubers)",
+    "key_stages": {
+      "planting": "October 15-November 15",
+      "emergence": "15-20 DAP",
+      "stolonization": "30-35 DAP",
+      "tuberization": "45-60 DAP",
+      "maturity": "80-100 DAP"
+    },
+    "fertilizer_schedule": {
+      "basal": "Full P, K + 1/2 N at planting",
+      "top_dressing": "1/2 N at earthing up (25-30 DAP)"
+    },
+    "common_diseases": ["Late Blight", "Early Blight", "Black Scurf", "Common Scab"],
+    "common_pests": ["Aphids", "Cutworm", "Tuber Moth"]
+  },
+  "Onion": {
+    "hindi": "प्याज",
+    "season": "Rabi (Nov-May), Kharif (June-Jan)",
+    "duration": 130,
+    "npk": {"N": 50, "P": 25, "K": 50},
+    "water_requirement": "450-550 mm",
+    "soil_type": ["Sandy loam", "Loam", "Well-drained"],
+    "optimal_ph": "6.0-7.0",
+    "spacing": "15x10 cm",
+    "seed_rate": "4-5 kg/acre (seedlings from 40-45 day nursery)",
+    "key_stages": {
+      "nursery": "40-45 days",
+      "transplanting": "6-8 leaf stage",
+      "bulb_initiation": "55-60 DAT",
+      "bulb_development": "70-100 DAT",
+      "maturity": "100-130 DAT"
+    },
+    "fertilizer_schedule": {
+      "basal": "Full P, K + 1/2 N at transplanting",
+      "top_dressing": "1/4 N at 30 DAT + 1/4 N at 45 DAT"
+    },
+    "common_diseases": ["Purple Blotch", "Stemphylium Blight", "Downy Mildew", "Basal Rot"],
+    "common_pests": ["Thrips", "Onion Maggot"]
+  },
+  "Chickpea": {
+    "hindi": "चना",
+    "season": "Rabi (October-March)",
+    "duration": 120,
+    "npk": {"N": 20, "P": 40, "K": 20},
+    "water_requirement": "350-450 mm (1-3 irrigations)",
+    "soil_type": ["Loam", "Clay loam", "Well-drained"],
+    "optimal_ph": "6.0-8.0",
+    "spacing": "30x10 cm",
+    "seed_rate": "30-35 kg/acre (desi), 40-45 kg/acre (kabuli)",
+    "key_stages": {
+      "sowing": "October 15-November 15",
+      "germination": "10-15 DAS",
+      "branching": "25-30 DAS",
+      "flowering": "40-55 DAS",
+      "podding": "70-90 DAS",
+      "maturity": "110-130 DAS"
+    },
+    "fertilizer_schedule": {
+      "basal": "All NPK at sowing",
+      "note": "Rhizobium seed treatment reduces N requirement"
+    },
+    "common_diseases": ["Fusarium Wilt", "Ascochyta Blight", "Dry Root Rot", "Collar Rot"],
+    "common_pests": ["Pod Borer (Helicoverpa)", "Cutworm"]
+  },
+  "Sugarcane": {
+    "hindi": "गन्ना",
+    "season": "Spring (Feb-Mar) or Autumn (Oct-Nov)",
+    "duration": 360,
+    "npk": {"N": 150, "P": 60, "K": 60},
+    "water_requirement": "1500-2000 mm (25-30 irrigations)",
+    "soil_type": ["Loam", "Clay loam", "Deep fertile"],
+    "optimal_ph": "6.5-7.5",
+    "spacing": "75-90 cm between rows",
+    "seed_rate": "25,000-30,000 setts/acre (3-bud setts)",
+    "key_stages": {
+      "germination": "30-45 DAP",
+      "tillering": "45-120 DAP",
+      "grand_growth": "120-270 DAP",
+      "maturity": "300-365 DAP"
+    },
+    "fertilizer_schedule": {
+      "basal": "Full P, K + 1/3 N at planting",
+      "first_top": "1/3 N at 45 DAP (tillering)",
+      "second_top": "1/3 N at 90 DAP (earthing up)"
+    },
+    "common_diseases": ["Red Rot", "Smut", "Wilt", "Grassy Shoot"],
+    "common_pests": ["Stem Borer", "Top Borer", "Pyrilla", "Termites"]
+  },
+  "Groundnut": {
+    "hindi": "मूंगफली",
+    "season": "Kharif (June-Oct), Rabi (Jan-May)",
+    "duration": 110,
+    "npk": {"N": 10, "P": 25, "K": 45},
+    "water_requirement": "400-500 mm",
+    "soil_type": ["Sandy loam", "Red sandy", "Well-drained"],
+    "optimal_ph": "6.0-6.5",
+    "spacing": "30x10 cm (bunch), 45x15 cm (spreading)",
+    "seed_rate": "50-60 kg/acre (kernel)",
+    "key_stages": {
+      "germination": "7-10 DAS",
+      "flowering": "30-40 DAS",
+      "pegging": "45-55 DAS",
+      "pod_development": "60-90 DAS",
+      "maturity": "100-130 DAS"
+    },
+    "fertilizer_schedule": {
+      "basal": "All NPK at sowing",
+      "gypsum": "Apply 200 kg/acre at flowering",
+      "note": "Being legume, needs less N (Rhizobium fixes N)"
+    },
+    "common_diseases": ["Tikka Disease", "Rust", "Collar Rot", "Stem Rot"],
+    "common_pests": ["Aphids", "Thrips", "White Grub", "Leaf Miner"]
+  },
+  "Soybean": {
+    "hindi": "सोयाबीन",
+    "season": "Kharif (June-October)",
+    "duration": 100,
+    "npk": {"N": 20, "P": 60, "K": 40},
+    "water_requirement": "450-550 mm",
+    "soil_type": ["Clay loam", "Loam", "Well-drained"],
+    "optimal_ph": "6.0-7.0",
+    "spacing": "45x5 cm (row x plant)",
+    "seed_rate": "30-35 kg/acre",
+    "key_stages": {
+      "sowing": "June 20-July 10",
+      "germination": "7-10 DAS",
+      "flowering": "40-50 DAS",
+      "pod_filling": "60-80 DAS",
+      "maturity": "90-110 DAS"
+    },
+    "fertilizer_schedule": {
+      "basal": "All NPK at sowing",
+      "note": "Bradyrhizobium seed treatment important"
+    },
+    "common_diseases": ["Yellow Mosaic", "Anthracnose", "Pod Blight", "Charcoal Rot"],
+    "common_pests": ["Stem Fly", "Girdle Beetle", "Tobacco Caterpillar", "Whiteflies"]
+  },
+  "Chilli": {
+    "hindi": "मिर्च",
+    "season": "Throughout year (main: June-July, Feb-March)",
+    "duration": 180,
+    "npk": {"N": 60, "P": 30, "K": 30},
+    "water_requirement": "500-600 mm",
+    "soil_type": ["Sandy loam", "Loam", "Well-drained"],
+    "optimal_ph": "6.0-7.0",
+    "spacing": "60x45 cm",
+    "seed_rate": "200-250 g/acre (nursery)",
+    "key_stages": {
+      "nursery": "35-40 days",
+      "transplanting": "5-6 leaf stage",
+      "flowering": "45-60 DAT",
+      "fruiting": "75-90 DAT",
+      "first_harvest": "80-90 DAT"
+    },
+    "fertilizer_schedule": {
+      "basal": "Full P + 1/3 N, K",
+      "top_dressing": "At 30 and 60 DAT"
+    },
+    "common_diseases": ["Anthracnose", "Leaf Curl", "Damping Off", "Powdery Mildew"],
+    "common_pests": ["Thrips", "Mites", "Fruit Borer", "Aphids"]
+  },
+  "Brinjal": {
+    "hindi": "बैंगन",
+    "season": "Throughout year",
+    "duration": 150,
+    "npk": {"N": 50, "P": 25, "K": 25},
+    "water_requirement": "400-500 mm",
+    "soil_type": ["Loam", "Sandy loam", "Clay loam"],
+    "optimal_ph": "5.5-6.5",
+    "spacing": "75x60 cm",
+    "seed_rate": "200-250 g/acre",
+    "key_stages": {
+      "nursery": "35-40 days",
+      "transplanting": "4-5 leaf stage",
+      "flowering": "35-45 DAT",
+      "first_harvest": "50-60 DAT"
+    },
+    "fertilizer_schedule": {
+      "basal": "Full P + half N, K",
+      "top_dressing": "At 30, 60, 90 DAT"
+    },
+    "common_diseases": ["Bacterial Wilt", "Little Leaf", "Phomopsis Blight"],
+    "common_pests": ["Shoot and Fruit Borer", "Jassids", "Aphids", "Red Spider Mite"]
+  },
+  "Okra": {
+    "hindi": "भिंडी",
+    "season": "Summer (Feb-March), Rainy (June-July)",
+    "duration": 90,
+    "npk": {"N": 40, "P": 25, "K": 25},
+    "water_requirement": "250-400 mm",
+    "soil_type": ["Sandy loam", "Loam"],
+    "optimal_ph": "6.0-6.8",
+    "spacing": "45x30 cm",
+    "seed_rate": "4-5 kg/acre",
+    "key_stages": {
+      "germination": "5-8 DAS",
+      "flowering": "40-50 DAS",
+      "first_harvest": "50-55 DAS"
+    },
+    "fertilizer_schedule": {
+      "basal": "Full P, K + 1/2 N",
+      "top_dressing": "1/2 N at 30 DAS"
+    },
+    "common_diseases": ["Yellow Vein Mosaic", "Powdery Mildew", "Damping Off"],
+    "common_pests": ["Fruit Borer", "Jassids", "Aphids", "Mites"]
+  },
+  "Cabbage": {
+    "hindi": "पत्ता गोभी",
+    "season": "Rabi (Sept-Feb)",
+    "duration": 100,
+    "npk": {"N": 60, "P": 30, "K": 30},
+    "water_requirement": "350-450 mm",
+    "soil_type": ["Sandy loam", "Loam", "Clay loam"],
+    "optimal_ph": "6.0-6.5",
+    "spacing": "45x30 cm",
+    "seed_rate": "200-250 g/acre",
+    "key_stages": {
+      "nursery": "30-35 days",
+      "head_formation": "60-75 DAT",
+      "harvest": "80-100 DAT"
+    },
+    "fertilizer_schedule": {
+      "basal": "Full P, K + 1/2 N",
+      "top_dressing": "1/2 N at 21 and 45 DAT"
+    },
+    "common_diseases": ["Black Rot", "Downy Mildew", "Club Root"],
+    "common_pests": ["Diamondback Moth", "Cabbage Butterfly", "Aphids"]
+  },
+  "Cauliflower": {
+    "hindi": "फूल गोभी",
+    "season": "Rabi (Sept-Feb)",
+    "duration": 100,
+    "npk": {"N": 60, "P": 30, "K": 30},
+    "water_requirement": "350-450 mm",
+    "soil_type": ["Sandy loam", "Loam"],
+    "optimal_ph": "6.0-7.0",
+    "spacing": "60x45 cm",
+    "seed_rate": "200-250 g/acre",
+    "key_stages": {
+      "nursery": "30-35 days",
+      "curd_initiation": "50-60 DAT",
+      "harvest": "80-100 DAT"
+    },
+    "fertilizer_schedule": {
+      "basal": "Full P, K + 1/2 N + Boron 2kg/acre",
+      "top_dressing": "1/4 N at 21 DAT + 1/4 N at curd initiation"
+    },
+    "common_diseases": ["Black Rot", "Downy Mildew", "Hollow Stem (Boron deficiency)"],
+    "common_pests": ["Diamondback Moth", "Aphids", "Cabbage Butterfly"]
+  },
+  "Mango": {
+    "hindi": "आम",
+    "season": "Perennial (flowering: Jan-Mar)",
+    "duration": null,
+    "npk": {"N": 1000, "P": 500, "K": 1000},
+    "npk_note": "g/tree/year for 10-year-old tree",
+    "water_requirement": "Critical irrigation at flowering and fruit development",
+    "soil_type": ["Deep loam", "Alluvial", "Red laterite"],
+    "optimal_ph": "5.5-7.5",
+    "spacing": "10x10 m (traditional), 2.5x2.5 m (high density)",
+    "key_stages": {
+      "flowering": "January-February",
+      "fruit_set": "February-March",
+      "fruit_development": "April-May",
+      "harvest": "May-July"
+    },
+    "fertilizer_schedule": {
+      "application": "After harvest and before flowering",
+      "organic": "50 kg FYM/tree"
+    },
+    "common_diseases": ["Powdery Mildew", "Anthracnose", "Malformation", "Die Back"],
+    "common_pests": ["Mango Hopper", "Mealy Bug", "Fruit Fly", "Stone Weevil"]
+  },
+  "Banana": {
+    "hindi": "केला",
+    "season": "Planted: June-July or Oct-Nov",
+    "duration": 420,
+    "npk": {"N": 200, "P": 75, "K": 300},
+    "npk_note": "g/plant",
+    "water_requirement": "1800-2000 mm distributed through drip",
+    "soil_type": ["Deep loam", "Clay loam", "Well-drained"],
+    "optimal_ph": "6.5-7.5",
+    "spacing": "1.8x1.8 m or 2x2 m",
+    "key_stages": {
+      "vegetative": "5-6 months",
+      "shooting": "7-8 month",
+      "bunch_development": "3-4 months",
+      "harvest": "12-14 months"
+    },
+    "fertilizer_schedule": {
+      "application": "Split application monthly through fertigation",
+      "organic": "10-15 kg FYM/pit at planting"
+    },
+    "common_diseases": ["Panama Wilt", "Sigatoka Leaf Spot", "Anthracnose", "Bunchy Top (viral)"],
+    "common_pests": ["Banana Weevil", "Pseudostem Weevil", "Thrips", "Nematodes"]
+  },
+  "Grapes": {
+    "hindi": "अंगूर",
+    "season": "Perennial (pruning: Oct for Nasik)",
+    "duration": null,
+    "npk": {"N": 500, "P": 300, "K": 500},
+    "npk_note": "g/vine/year for mature vines",
+    "water_requirement": "500-600 mm (drip irrigation)",
+    "soil_type": ["Sandy loam", "Well-drained", "Rocky"],
+    "optimal_ph": "6.5-7.5",
+    "spacing": "3x1.5 m (Y-trellis)",
+    "key_stages": {
+      "Oct_pruning": "Foundation pruning",
+      "bud_break": "7-10 days after pruning",
+      "flowering": "21-28 days",
+      "fruit_set": "35-40 days",
+      "veraison": "60-70 days",
+      "harvest": "100-110 days"
+    },
+    "fertilizer_schedule": {
+      "basal": "FYM 50 kg + full P, K before pruning",
+      "fertigation": "N in weekly splits"
+    },
+    "common_diseases": ["Powdery Mildew", "Downy Mildew", "Anthracnose"],
+    "common_pests": ["Thrips", "Mealy Bug", "Flea Beetle"]
+  }
+}
